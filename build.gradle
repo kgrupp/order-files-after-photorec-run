@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+version = project.hasProperty('orderFilesVersion') ? project.easyTrackVersion : "LOCAL-VERSION"
+mainClassName = 'de.kgrupp.orderfiles.OrderFilesApplication'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+applicationDefaultJvmArgs = ['-Dfile.encoding=utf-8']
