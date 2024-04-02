@@ -23,3 +23,7 @@ gradlew.bat run --args="[SOURCE_FOLDER] [TARGET_FOLDER]"
 * It will sort `jpg` images by name original creation date (in the meta data) and otherwise uses the last modified date of the file.
 * It will rename all `mp3` files to start with artist and song name.
 * It will try to recover the creation date of `mp4` files and otherwise use the last modified date.
+
+# ddrescue statistics
+
+Execute the PrintStatistics main method to get an overview of the state of your current ddrescue run.
